@@ -62,7 +62,9 @@ def authorize():
 def run_rumour_app(url):
     api = authorize()
     #df = create_df('tweets_out.csv')
-    df = pd.read_csv("/home/aman/maj_proj_fe/app/tweets_out.csv")
+#    df = pd.read_csv("/home/aman/maj_proj_fe/app/main/tweets_out.csv")
+
+    df = pd.read_csv("tweets_out.csv")
     feature_label_names = ['text', 'target_value']
     df = (df.loc[:,feature_label_names])
 

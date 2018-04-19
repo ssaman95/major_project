@@ -33,7 +33,7 @@ class RegistrationForm(FlaskForm):
             raise ValidationError('Please use a different email address.')
         
 
-
+'''
 class EditProfileForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired()])
     twitter_id = StringField('Twitter ID', validators=[Length(min=0, max=140)])
@@ -54,7 +54,7 @@ class EditProfileForm(FlaskForm):
 class TweetForm(FlaskForm):
     tweet_url = StringField('Enter Tweet URL', validators=[DataRequired()])
     submit = SubmitField('Submit')
-
+'''
 
 class ResetPasswordRequestForm(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])
