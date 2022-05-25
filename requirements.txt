@@ -20,7 +20,7 @@ MarkupSafe==1.0
 numpy==1.14.2
 oauthlib==2.0.6
 pandas==0.22.0
-PyJWT==1.6.1
+PyJWT==2.4.0
 PySocks==1.6.8
 python-dateutil==2.7.0
 python-dotenv==0.8.2
